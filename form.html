@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="shortcut icon" href="image/70.png" type="image/x-icon">
+    <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">blog</a></li>
+
+                <li><a href="video.html">video</a></li>
+                <li><a href="form.html">form</a></li>
+                <li><a href="table.html">table</a></li>
+
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h1>please fill up the form</h1>
+            <form class="form" action="#">
+                <label for="name"> your name</label>
+                <input type="text" id="name" placeholder="enter your name"><br><br>
+                <label for="email">your email</label>
+                <input type="email" id="email" placeholder=" enter your email"><br><br>
+                <label for="password">your password</label>
+                <input type="password" id="password" placeholder="enter password"><br><br>
+                <fieldset>
+                    <legend>pick one pitha</legend>
+                    <label for="chitoy"></label>
+                    <input type="radio" name="pitha" id="chitoy">chitoy
+                    <label for="vapa"></label>
+                    <input type="radio" name="pitha" id="vapa">vapa
+                    <label for="chili"></label>
+                    <input type="radio" name="pitha" id="chili">chili
+
+                </fieldset><br>
+                <fieldset>
+                    <legend>pick one or more subject</legend>
+                    <label for="bangla"></label>
+                    <input type="checkbox" name="subject" id="bangla">bangla
+                    <label for="arabic"></label>
+                    <input type="checkbox" name="subject" id="arabic">arabic
+                    <label for="english"></label>
+                    <input type="checkbox" name="subject" id="english">english
+
+                </fieldset>
+                <fieldset>
+                    <legend>special instruction</legend>
+                    <textarea name="" id="" cols="80%" rows="10" placeholder="write about yourself"></textarea>
+                </fieldset>
+                <input type="reset" value="reset">
+                <input type="submit" value="sent">
+
+
+
+
+
+
+            </form>
+        </section>
+    </main>
+
+</body>
+
+</html>
